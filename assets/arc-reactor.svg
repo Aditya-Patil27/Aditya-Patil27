@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-label="Aditya Patil - ML and AI Systems - arc reactor HUD banner">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="30%"  stop-color="#B8FBFF" stop-opacity="0.95"/>
+      <stop offset="62%"  stop-color="#00E5FF" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0090A8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#00E5FF" stop-opacity="0.30"/>
+      <stop offset="70%"  stop-color="#00E5FF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#7DF9FF" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="softglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#0C2630" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace; }
+      @keyframes breathe { 0%,100% { opacity:.55 } 50% { opacity:1 } }
+      @keyframes flicker { 0%,100% { opacity:1 } 47% { opacity:.85 } 49% { opacity:.35 } 51% { opacity:.9 } }
+      @keyframes coil    { 0%,100% { opacity:.25 } 50% { opacity:1 } }
+      @keyframes rise    { 0% { opacity:0; transform:translateY(6px) } 100% { opacity:1; transform:translateY(0) } }
+      .breathe { animation: breathe 3.4s ease-in-out infinite; }
+      .flick   { animation: flicker 6s linear infinite; }
+      .c0 { animation: coil 2.4s ease-in-out infinite; }
+      .c1 { animation: coil 2.4s ease-in-out .3s infinite; }
+      .c2 { animation: coil 2.4s ease-in-out .6s infinite; }
+      .c3 { animation: coil 2.4s ease-in-out .9s infinite; }
+      .c4 { animation: coil 2.4s ease-in-out 1.2s infinite; }
+      .c5 { animation: coil 2.4s ease-in-out 1.5s infinite; }
+      .c6 { animation: coil 2.4s ease-in-out 1.8s infinite; }
+      .c7 { animation: coil 2.4s ease-in-out 2.1s infinite; }
+    </style>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1200" height="320" fill="#05080D"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity="0.55"/>
+  <circle cx="600" cy="160" r="220" fill="url(#halo)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#00E5FF" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M18 54V18h36"/><path d="M1182 54V18h-36"/>
+    <path d="M18 266v36h36"/><path d="M1182 266v36h-36"/>
+  </g>
+  <g stroke="#00E5FF" stroke-width="1" opacity="0.25">
+    <path d="M0 26h1200"/><path d="M0 294h1200"/>
+  </g>
+
+  <!-- ============ ARC REACTOR ============ -->
+  <g transform="translate(600 160)">
+
+    <!-- outer tick ring -->
+    <g opacity="0.40">
+      <circle r="126" fill="none" stroke="#00E5FF" stroke-width="8" stroke-dasharray="1.5 11"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="48s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- segmented ring, counter-rotating -->
+    <g opacity="0.65">
+      <circle r="106" fill="none" stroke="#00E5FF" stroke-width="2.5" stroke-dasharray="46 26"/>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- fine dashed ring -->
+    <g opacity="0.7">
+      <circle r="90" fill="none" stroke="#7DF9FF" stroke-width="1.5" stroke-dasharray="5 9"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- housing rings -->
+    <circle r="74" fill="none" stroke="#00E5FF" stroke-width="3" opacity="0.9" filter="url(#softglow)"/>
+    <circle r="63" fill="none" stroke="#0A3D4A" stroke-width="8"/>
+
+    <!-- rotating triangle -->
+    <g opacity="0.55">
+      <path d="M0 -46 L40 24 L-40 24 Z" fill="none" stroke="#7DF9FF" stroke-width="2"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="26s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- coil segments -->
+    <g stroke="#7DF9FF" stroke-width="7" stroke-linecap="round" filter="url(#softglow)">
+      <line class="c0" x1="40"     y1="0"      x2="58"     y2="0"/>
+      <line class="c1" x1="28.28"  y1="28.28"  x2="41.01"  y2="41.01"/>
+      <line class="c2" x1="0"      y1="40"     x2="0"      y2="58"/>
+      <line class="c3" x1="-28.28" y1="28.28"  x2="-41.01" y2="41.01"/>
+      <line class="c4" x1="-40"    y1="0"      x2="-58"    y2="0"/>
+      <line class="c5" x1="-28.28" y1="-28.28" x2="-41.01" y2="-41.01"/>
+      <line class="c6" x1="0"      y1="-40"    x2="0"      y2="-58"/>
+      <line class="c7" x1="28.28"  y1="-28.28" x2="41.01"  y2="-41.01"/>
+    </g>
+
+    <!-- core -->
+    <circle class="breathe" r="52" fill="url(#core)" filter="url(#glow)"/>
+    <circle r="20" fill="#EAFEFF" opacity="0.95" filter="url(#glow)"/>
+    <circle r="20" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+  </g>
+
+  <!-- ============ LEFT READOUT ============ -->
+  <g class="mono" text-anchor="end">
+    <text x="432" y="132" fill="#E8FCFF" font-size="38" font-weight="700" letter-spacing="4">ADITYA PATIL</text>
+    <text x="432" y="162" fill="#00E5FF" font-size="13" letter-spacing="5.5" class="flick">MACHINE LEARNING · AI SYSTEMS</text>
+    <text x="432" y="200" fill="#5FA8B8" font-size="12" letter-spacing="2">PUNE · INDIA</text>
+  </g>
+
+  <!-- ============ RIGHT READOUT ============ -->
+  <g class="mono" font-size="12" letter-spacing="1.6">
+    <text x="770" y="108" fill="#00E5FF" opacity="0.85">SYSTEM DIAGNOSTIC</text>
+    <line x1="770" y1="118" x2="1090" y2="118" stroke="#00E5FF" stroke-width="1" opacity="0.35"/>
+
+    <text x="770" y="146" fill="#5FA8B8">ARC REACTOR</text>
+    <text x="960" y="146" fill="#7DF9FF" class="breathe">████████████ 100%</text>
+
+    <text x="770" y="172" fill="#5FA8B8">NEURAL NET</text>
+    <text x="960" y="172" fill="#7DF9FF">ONLINE</text>
+
+    <text x="770" y="198" fill="#5FA8B8">RETRIEVAL</text>
+    <text x="960" y="198" fill="#7DF9FF">NOMINAL</text>
+
+    <text x="770" y="224" fill="#5FA8B8">AGENT MESH</text>
+    <text x="960" y="224" fill="#7DF9FF">4 ACTIVE</text>
+  </g>
+
+  <!-- sweeping scan line -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#scan)">
+    <animate attributeName="y" values="30;290;30" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" fill="none" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="12%"  stop-color="#00E5FF" stop-opacity="0.55"/>
+      <stop offset="88%"  stop-color="#00E5FF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="45%"  stop-color="#7DF9FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="g2" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <line x1="0" y1="14" x2="1200" y2="14" stroke="url(#rail)" stroke-width="1.5"/>
+
+  <g stroke="#00E5FF" stroke-width="1.5" opacity="0.45">
+    <line x1="150" y1="9" x2="150" y2="19"/>
+    <line x1="450" y1="9" x2="450" y2="19"/>
+    <line x1="750" y1="9" x2="750" y2="19"/>
+    <line x1="1050" y1="9" x2="1050" y2="19"/>
+  </g>
+
+  <polygon points="600,6 608,14 600,22 592,14" fill="#0A3D4A" stroke="#00E5FF" stroke-width="1.5"/>
+
+  <circle cy="14" r="7" fill="url(#pulse)" filter="url(#g2)">
+    <animate attributeName="cx" values="40;1160;40" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="9s" repeatCount="indefinite"/>
+  </circle>
+</svg>
