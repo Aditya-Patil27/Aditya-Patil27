@@ -20,8 +20,8 @@
 
 ### 🔭 Currently
 
-- 🧬 Building **MDAV** — multimodal document-authenticity verification, targeting IEEE publication
-- 🧠 Exploring multi-agent orchestration with durable memory, and retrieval pipelines that survive messy real-world documents
+- 📈 Exploring **quantitative finance** — statistical modelling, market microstructure, and strategy backtesting
+- 🧠 Going deeper into **ML** — model training, evaluation, and the math underneath
 - ⚡ Studying inference optimisation — quantisation, batching, KV-cache reuse
 
 ### 🛠️ Tech Stack
