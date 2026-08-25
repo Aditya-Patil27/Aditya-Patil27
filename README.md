@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Aditya Patil 👋</h1>
+<h1 align="center">Hi, I'm Aditya Patil</h1>
 
 <p align="center">
   <b>ML & Backend Engineer</b> · B.Tech CSE (AI/ML) @ VIT Pune · IEEE Research Intern
@@ -18,13 +18,13 @@
 
 ---
 
-### 🔭 Currently
+### Currently
 
-- 📈 Exploring **quantitative finance** — statistical modelling, market microstructure, and strategy backtesting
-- 🧠 Going deeper into **ML** — model training, evaluation, and the math underneath
-- ⚡ Studying inference optimisation — quantisation, batching, KV-cache reuse
+- Exploring **quantitative finance** — statistical modelling, market microstructure, and strategy backtesting
+- Going deeper into **ML** — model training, evaluation, and the math underneath
+- Studying inference optimisation — quantisation, batching, KV-cache reuse
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,cpp,typescript,javascript,java&perline=10" alt="Languages" /><br/>
@@ -36,20 +36,20 @@
   <sub><b>Also:</b> LangChain · FAISS · Sentence-Transformers · RAG · Hugging Face · Zod · Jest · GitHub Actions</sub>
 </p>
 
-### 🚀 Featured Projects
+### Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🔍 [MDAV](https://github.com/Aditya-Patil27/MDAV)** — *IEEE Research*<br/>
+**[MDAV](https://github.com/Aditya-Patil27/MDAV)** — *IEEE Research*<br/>
 Multimodal document-authenticity pipeline: visual forgery detection, OCR semantic validation, PKCS#7 signatures, blockchain audit trails.<br/>
 <sub>`PyTorch` `FastAPI` `Next.js` `PostgreSQL`</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**🧬 [GenomaVeda](https://github.com/Aditya-Patil27/GENOMAVEDA)**<br/>
+**[GenomaVeda](https://github.com/Aditya-Patil27/GENOMAVEDA)**<br/>
 Pharmacogenomics decision support — CPIC drug–gene rule engine, D3 risk reports, HL7 FHIR export. Zod-validated APIs, Jest, CI.<br/>
 <sub>`Next.js` `TypeScript` `D3.js` `GitHub Actions`</sub>
 
@@ -58,14 +58,14 @@ Pharmacogenomics decision support — CPIC drug–gene rule engine, D3 risk repo
 <tr>
 <td width="50%" valign="top">
 
-**🏥 [MedChainID](https://github.com/Aditya-Patil27/MEDCHAIN_ID)**<br/>
+**[MedChainID](https://github.com/Aditya-Patil27/MEDCHAIN_ID)**<br/>
 Patients own medical records as blockchain tokens — AES-256 encrypted docs on IPFS, AI fraud detection, immutable audit trails.<br/>
 <sub>`React` `Node.js` `Aptos (Move)` `Flask`</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**🌊 [BlueGuard](https://github.com/Aditya-Patil27/marine_gurad)**<br/>
+**[BlueGuard](https://github.com/Aditya-Patil27/marine_gurad)**<br/>
 Maritime risk intelligence — ML risk scoring over live AIS streams, dark-vessel anomaly detection, LSTM route prediction.<br/>
 <sub>`Python` `LSTM` `Computer Vision` `Docker`</sub>
 
@@ -74,14 +74,14 @@ Maritime risk intelligence — ML risk scoring over live AIS streams, dark-vesse
 <tr>
 <td width="50%" valign="top">
 
-**📧 [Chimera](https://github.com/Aditya-Patil27/chimera)**<br/>
+**[Chimera](https://github.com/Aditya-Patil27/chimera)**<br/>
 Smart email client — three-agent LLM council (Drafter → Critic → Judge), RAG over email history, Redis-queued Gmail sync.<br/>
 <sub>`NestJS` `FastAPI` `React` `pgvector`</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**🧠 [Universal Memory Agent](https://github.com/Aditya-Patil27/universal-memory-agent)**<br/>
+**[Universal Memory Agent](https://github.com/Aditya-Patil27/universal-memory-agent)**<br/>
 Multi-agent orchestration with memory that survives restarts — supervisor routing, provider key rotation.<br/>
 <sub>`Python` `Supabase` `Groq` `FastAPI`</sub>
 
@@ -89,7 +89,7 @@ Multi-agent orchestration with memory that survives restarts — supervisor rout
 </tr>
 </table>
 
-### 📊 Stats
+### Stats
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Aditya-Patil27&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
@@ -101,5 +101,5 @@ Multi-agent orchestration with memory that survives restarts — supervisor rout
 </p>
 
 <p align="center">
-  <sub>🏆 <b>LeetCode Knight</b> — peak 1930, top 4.94% · <b>CodeChef 3★</b> — peak 1639, Global Rank 17 in Starters 185 · <b>3× Hackathon Winner</b></sub>
+  <sub><b>LeetCode Knight</b> — peak 1930, top 4.94% · <b>CodeChef 3★</b> — peak 1639, Global Rank 17 in Starters 185 · <b>3× Hackathon Winner</b></sub>
 </p>
