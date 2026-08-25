@@ -92,8 +92,7 @@ Multi-agent orchestration with memory that survives restarts — supervisor rout
 ### Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Aditya-Patil27&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya-Patil27&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+  <img src="https://streak-stats.demolab.com?user=Aditya-Patil27&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
 <p align="center">
